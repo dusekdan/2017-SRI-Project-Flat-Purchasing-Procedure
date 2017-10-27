@@ -1,68 +1,83 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[IL2]{fontenc}
+\usepackage[top=2cm]{geometry}
 
 \title{SRI - Strukturovaný seznam činností - Koupě Bytu}
 
 % Get stars for bullet points
 \renewcommand{\labelitemi}{$\diamond$}
 \renewcommand{\labelitemii}{$\Rightarrow$}
+\renewcommand{\labelitemiii}{$\Rightarrow$}
+
+% Command for adding czech quotes
+\providecommand{\uv}[1]{\quotedblbase #1\textquotedblleft}
 
 \begin{document}
 
 \thispagestyle{empty}
+\pagenumbering{gobble}
 \section*{Strukturovaný seznam činností - Koupě bytu}
 \begin{itemize}
 	\setlength{\itemsep}{3pt}
 	
-	\item \textbf{Stanovení akceptačních požadavků}:
+	\item \textbf{Stanovení akceptačních kritérií}:
 		\begin{itemize}
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
+			\item Stanovení cenové relace pro nákup, 
+			\item určení požadavků na lokalitu bytu,
+			\item nastavení nároků na zachovalost budovy, ve které se byt nachází, 
+			\item stanovení požadavků na rozlohové parametry bytu a vybavení bytu, 
+			\item určení požadavků na dostupnost služeb v lokalitě bytu (inženýrské sítě, socializace, MHD, \dots{}).
 		\end{itemize}
 	
 	\item \textbf{Průzkum trhu}:
 		\begin{itemize}
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
+			\item Vyhledání portálů určených k inzerci realit na prodej,
+			\item analýza subjektů nabízejících byty na prodej,
+			\item zhodnocení výhod a nevýhod nákupu bytu s a bez realitní kanceláře, popřípadě od dalších subjektů,
+			\item vytvoření seznamu portálů a kanálů jejichž nabídky je žádoucí sledovat,
+			\item vývoj aplikace pro automatické sledování nových a změněných nabídek bytů na internetu,
+			\item sledování trendu vývoje ceny a dostupnosti bytů na základě výstupů aplikace,
+			\item sestavení seznamu bytů dle popisu vyhovujících stanoveným akceptačním kritériím,
+			\item vlastní průzkum lokality vybraných bytů s využitím internetu,
+			\item vlastní fyzický průzkum lokality vybraných bytů. 
 		\end{itemize}
 	
-	\item \textbf{Návštěvy bytů}:
+	\item \textbf{Návštěvy a posudky bytů}:
 		\begin{itemize}
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
+			\item Kontaktování inzerujících osob ze seznamu \uv{zajímavých} (vyhovujících) bytů a domluvení schůzek,
+			\item účast na prohlídkách bytů:
+				\begin{itemize}
+					\item Sledování akceptačních kritérií, které nemohly být rozhodnuty na základě inzerátu,
+					\item posouzení nezávadnosti \textit{listu vlastnictví} a dalších právních náležitostí,
+					\item zjištění komu patří pozemek, na kterém budova s byty stojí a jaké jsou podmínky změny výšky pronájmu tohoto pozemku pro majitele bytu,
+					\item porovnání reálných parametrů bytu s inzerovanými parametry,
+					\item odhadování nákladů na případnou rekonstrukci či úpravu bytu,
+					\item sestavení seznamu potenciálních pojistitelných událostí hrozících v dané lokalitě a jejich pravděpodobnosti.
+				\end{itemize} 
+			\item tvorba prioretizovaného seznamu bytů vyhovujících všem kritérium, 
+			\item kalkulace nejvíce efektivní varianty nákupu,
+			\item výběr konkrétního bytu k nákupu.
 		\end{itemize}
 
 	\item \textbf{Koupě bytu}:
 		\begin{itemize}
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
+			\item Určení způsobu provedení platby a realokace prostředků, 
+			\item ověření právní a zástavní nezávadnosti bytu v den podpisu smlouvy o prodeji,
+			\item podpis smlouvy a provedení platby. 
 		\end{itemize}
 
-	\item \textbf{xxx}:
+	\item \textbf{Zajištění bytu}:
 			\begin{itemize}
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
-			\item Dummy 
+			\item Průzkum nabízených pojišťovacích plánů uspokojujích potřeby bytu na základě seznamu potenciálních pojistitelných událostí, 
+			\item vyřízení nejvhodnějších pojišťovacích plánů,
+			\item realizace preventivních opatření pro minimalizaci rizik spojených s provozem bytu (zabezpečovací systém, hlásiče úrovně CO$_2$, hlásiče kouře, detektory pohybu, průmyslové kamery, \dots{}).
 		\end{itemize}
 \end{itemize}
 
+~\\
+~\\
+\textbf{Počet aktivit}: ~~ 36 \\
+\textbf{Vypracoval:} ~~~~~~Daniel Dušek, xdusek21
 \end{document}
