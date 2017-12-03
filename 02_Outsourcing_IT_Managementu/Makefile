@@ -1,6 +1,3 @@
-# Author: Daniel Dusek (xdusek21)
-# Brno, University of Technology
-# SRI class of 2017/2018, Project Flat Purchasing Procedure
 all:
 	pdflatex xdusek21.tex
-	rm xdusek21.log xdusek21.aux
+	rm xdusek21.aux xdusek21.log
