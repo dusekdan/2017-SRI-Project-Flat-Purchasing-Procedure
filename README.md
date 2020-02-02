@@ -1,6 +1,6 @@
 # FIT BUT, SRI Projects
 *School projects for SRI (Strategic Management of Information Systems) class, Faculty of Information Technology, Brno University of Technology.*
-
+ 
 **Team members**:
 * Daniel Dušek, xdusek21
 * Filip Kalous, xkalou03
